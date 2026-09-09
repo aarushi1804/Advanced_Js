@@ -18,7 +18,6 @@ import fs from "fs";
 // setImmediate(() => {
 //   console.log("This message is displayed immediately after the current event loop phase");
 // });
-
 fs.readFile("intro.txt", "utf8", (err, data) => {
     console.log("File read completed");
     setTimeout(() => {
